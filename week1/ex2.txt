@@ -1,0 +1,29 @@
+    1  whoami
+    2  mkdir ~/week1
+    3  cd ~/week1
+    4  cat > ex1.txt
+    5  ls usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+    6  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+    7  ls /usr/bin | grep -i gcc | sort -r > ~/week1/ex1.txt
+    8  ls /usr/bin
+    9  ls /usr/bin | grep gnu
+   10  sudo apt-get install gcc
+   11  sudo apt install built-essential
+   12  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   13  touch example.txt
+   14  pwd
+   15  whoami
+   16  rm example.txt
+   17  cat test.txt
+   18  cat > test.txt
+   19  grep line test.txt
+   20  head
+   21  rm test.txt
+   22  echo new.txt
+   23  mv new.txt ex2.txt
+   24  ls
+   25  echo > new.txt
+   26  ls
+   27  mv new.txt ex2.txt
+   28  ls
+   29  history > ex2.txt
