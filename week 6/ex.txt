@@ -1,0 +1,52 @@
+	Input data for the exercises:
+
+Enter the number of processes: 4
+Enter the arrival time of the process #1: 0
+Enter the burst time of the process #1: 5
+Enter the arrival time of the process #2: 1
+Enter the burst time of the process #2: 2
+Enter the arrival time of the process #3: 2
+Enter the burst time of the process #3: 4
+Enter the arrival time of the process #4: 3
+Enter the burst time of the process #4: 7
+
+	Ex1. First come, first served
+Process #1	 AT: 0	 BT: 5	 CT: 5	 TAT: 5	 	 WT: 0	
+
+Process #2	 AT: 1	 BT: 2	 CT: 7	 TAT: 6	 	 WT: 4	
+
+Process #3	 AT: 2	 BT: 4	 CT: 11	 TAT: 9	 	 WT: 5	
+
+Process #4	 AT: 3	 BT: 7	 CT: 18	 TAT: 15	 WT: 8	
+
+Average TAT: 8.750000
+Average WT: 4.250000
+
+	Ex2. Shortest job next
+Output:
+Process #1	 AT: 0	 BT: 5	 CT: 11	 TAT: 11	 WT: 6	
+
+Process #2	 AT: 1	 BT: 2	 CT: 3	 TAT: 2	 	 WT: 0	
+
+Process #3	 AT: 2	 BT: 4	 CT: 7	 TAT: 5	 	 WT: 1	
+
+Process #4	 AT: 3	 BT: 7	 CT: 18	 TAT: 15	 WT: 8	
+
+Average TAT: 8.250000
+Average WT: 3.750000
+
+	Ex3. Round robin (quantum = 3)
+Output:
+Process #1	 AT: 0	 BT: 5	 CT: 13	 TAT: 13	 WT: 8	
+
+Process #2	 AT: 1	 BT: 2	 CT: 5	 TAT: 4	 	 WT: 2	
+
+Process #3	 AT: 2	 BT: 4	 CT: 14	 TAT: 12	 WT: 8	
+
+Process #4	 AT: 3	 BT: 7	 CT: 18	 TAT: 15	 WT: 8	
+
+Average TAT: 11.000000
+Average WT: 6.500000
+
+
+From these tests we can see that FCFS and SJN showed better results on the average turnaround time than RR, however it can be improved by changing the quantum.
