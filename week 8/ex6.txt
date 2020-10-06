@@ -1,0 +1,12 @@
+Given:
+- 16-bit virtual addresses
+- pages are 8 Kib
+
+Find:
+- # of entries for a single-level linear page table
+
+Solution:
+Virtual memory: 2^16 = 64 Kib
+The number of entries: 64 Kib / 8 Kib = 8
+
+Answer: 8

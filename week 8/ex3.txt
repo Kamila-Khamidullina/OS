@@ -1,0 +1,2 @@
+The program takes part of the processor time and of the memory.
+While running 'top -d 1' the percentege of CPU is higher than when running 'top'.
