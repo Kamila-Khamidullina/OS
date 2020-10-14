@@ -1,0 +1,8 @@
+In order to increase the hit/miss ratio we can:
+     - increase the number of page frames
+     - decrease the number of different pages that we access at range of number of page frames (i.e., for example, there are n page frames, we should access the same page before we will access n other pages)
+
+In order to decrease the hit/miss ratio we can:
+     - decrease the number of page frames
+     - increase the number of different pages that we access at range of number of page frames (i.e. we should access the same page when it will be replaced in a frame with another page)
+
