@@ -1,0 +1,15 @@
+> cat ../week1/file.txt
+
+> link ../week1/file.txt _ex2.txt
+
+> ls -i -l
+3623225 -rw-r--r--@  3 kamila   users   0 Oct 20 15:34 _ex1_1.txt
+3623225 -rw-r--r--@  3 kamila   users   0 Oct 20 15:34 _ex1_2.txt
+3623225 -rw-r--r--@  3 kamila   users 205 Oct 20 15:35 _ex1.txt
+3623228 -rw-r--r--@  1 kamila   users   0 Oct 20 15:35 ex1.txt
+3623235 -rw-r--r--@  2 kamila   users   0 Oct 20 15:37 _ex2.txt
+3623241 -rw-r--r--@  1 kamila   users   0 Oct 20 15:38 ex2.txt
+
+> find .. -inum 3623235
+../week1/file.txt
+../week10/_ex2.txt
