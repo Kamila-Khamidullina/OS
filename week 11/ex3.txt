@@ -1,0 +1,16 @@
+There is used line buffering in both programs. The output will be written after receving "\n" and the buffer will be cleaned.
+
+Program 1 puts to the buffer "Hello" and then puts "\n".
+So the program will print "Hello\n" twice (before and after fork)
+Output:
+----------------------
+	Hello
+	Hello
+----------------------
+While Program 2 puts to the buffer "Hello" and then "\n".
+So the program will print "Hello\n" and "\n"
+Output:
+----------------------
+	Hello
+
+----------------------
