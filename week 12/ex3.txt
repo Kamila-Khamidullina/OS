@@ -1,0 +1,5 @@
+-DBUF_SIZE=nbytes
+The bigger the value of nbytes, the bigger the buffer and the faster occurs reads.
+The bigger the value of nbytes, the less time and CPU is taken
+
+After including the O_SYNC flag it takes more time and less CPU
