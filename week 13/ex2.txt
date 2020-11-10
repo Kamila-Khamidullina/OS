@@ -1,0 +1,16 @@
+Three strategies of dealing with deadlocks:
+
+1) Recovery:
+Deadlock recovery is used in real-time operating systems (deadlocks depend on the user actions);
+This strategy is not such expensive as others;
+
+2) Prevention:
+This strategy is used if one of four conditions occur:
+- mutual exclusion: avoid assigning a resource
+- Hold-and-Wait: processes should be required to request resources before execution or to first temporarily release resources
+- No-Preemption: virtualizing or taking back resources
+- Circular Wait Condition: process is entitled a single resource at any moment
+
+3) Avoidance:
+This strategy is used if certain information (for example, safety of a granting resource) is available in advance
+
